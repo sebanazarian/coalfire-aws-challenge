@@ -61,14 +61,13 @@ aws configure --profile coalfire-challenge
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sebanazarian/coalfire-aws-challenge
    cd aws-infrastructure-challenge
    ```
 
 2. **Set AWS Profile**
    ```bash
    export AWS_PROFILE=coalfire-challenge
-   # Or use your preferred profile name
    ```
 
 3. **Setup EC2 Key Pair**
